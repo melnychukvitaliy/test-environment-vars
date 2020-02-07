@@ -24,6 +24,15 @@ export NEW_SECRET="new"
 env | grep NEW_SECRET
 ```
 
+### source described env
+
+```
+source .env
+
+env | grep FOO_SOURCE
+
+```
+
 ### add env to process
 
 ```
